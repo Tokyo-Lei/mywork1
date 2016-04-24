@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "account": "qq",
+      "password": "123",
+      "sex": "男"
+    },
+    {
+      "account": "we",
+      "password": "123",
+      "sex": "男"
+    },
+    {
+      "account": "ww",
+      "password": "123",
+      "sex": "男"
+    }
+  ]
+}

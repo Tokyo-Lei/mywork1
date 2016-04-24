@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login new account</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./libs/jquery/dist/jquery.js"></script>
+    <script src="js/register.js"></script>
+</head>
+<body>
+    <div class="contain">
+        <div class="head">
+            <div class="title">
+                <h1>微博注册</h1>
+            </div>
+            <div class="nav">
+                <span>简体中文</span>
+                <span>English</span>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main-1">
+                <div class="ad">
+                </div>
+                <div class="register">
+                    <div class="register-title">
+                        注册帐号 <a href="./login.html">返回登录界面</a>
+                        <hr>
+                    </div>
+                    <div class="register-body">
+                        <form>
+                            <label>账号</label>
+                            <input type="text" class="ap account" id="name" name="account" autofocus>
+                            <span>请输入昵称</span>
+                            <div id="error" class="error"></div>
+                            <br>
+                            <label> 密码</label>
+                            <input type="password" class="ap pw" id="password" name="password">
+                            <div id="error-pw" class="error"></div>
+                            <br>
+                            <label>确认密码</label>
+                            <input type="password" class="ap pw" id="again_password" name="again_password">
+                            <br>
+                            <div id="error-pw-a" class="error"></div>
+                            <label>性别</label>
+                            <input type="radio"  name="sex" checked="checked" value="男">男
+                            <input type="radio" name="sex" value="女">女
+                            <br>
+                            <label></label>
+                            <input type="button" class="btn" value="提交注册">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

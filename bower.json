@@ -1,0 +1,17 @@
+{
+  "name": "mywork1",
+  "description": "",
+  "license": "ISC",
+  "homepage": "https://github.com/txlwll/mywork1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}

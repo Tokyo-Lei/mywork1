@@ -1,0 +1,129 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    height:100%;
+    background: url("../img/login-bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contain {
+    position: relative;
+    height: 100%;
+}
+.left {
+    position: absolute;
+    top:95px;
+    width: 100%;
+}
+.logo {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+.logo-img {
+    margin-bottom: 10px;
+}
+.logo-img img {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+.logo-img h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.logo-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.login {
+    position: absolute;
+    top: 95px;
+    width: 442px;
+    height: 320px;
+    left: 50%;
+    background-color: #ffffff;
+    border: 2px solid #eeeeee;
+}
+.one {
+    height: 50px;
+    border-bottom: 1px solid #e2e2e2;
+    position: relative;
+    font-family: "微软雅黑";
+}
+.one p {
+    height: 45px;
+    position: absolute;
+    left:150px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #999;
+}
+.two {
+    position: relative;
+    height: 270px;
+    width:100%;
+}
+.form {
+    padding: 45px 68px;
+}
+.form input {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999;
+    cursor: text;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.form button {
+    width: 150px;
+    height: 40px;
+    border-radius:5px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    color: #ffffff;
+    background-color: green;
+    border: none;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left:200px;
+    font-size: 15px;
+    color: #999999;
+}
+.footer a {
+    color: #666;
+    margin-left: 2px;
+}
+a:first-child {
+    padding-right: 10px;
+    text-decoration: none;
+    border-right:1px solid #aaaaaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
