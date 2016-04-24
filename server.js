@@ -10,7 +10,8 @@ var app = express();
 
 
 
-app.use(express.static('public'));
+// app.use(express.static('public'));   // 开发环境
+app.use(express.static('dist'));    // 线上环境
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/',function(req,res) {
