@@ -11,11 +11,8 @@ $(document).ready(function () {
                 if (data.status === 1) {
                     window.location.href = './blog.html'
                 }
-                else if (data.status === 0) {
-                    $('.password').after('密码错误')
-                }
-                else if (data.status === -1) {
-                    $('.username').after('该用户不存在！')
+                else {
+                    $('.password').after(data.msg)
                 }
             }
         });

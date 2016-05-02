@@ -1,13 +1,16 @@
 {
-  "name": "mywork1",
+  "name": "mysecond",
+  "authors": [
+    "txlwll <weilinglijs@qq.com>"
+  ],
   "description": "",
-  "license": "ISC",
-  "homepage": "https://github.com/txlwll/mywork1",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "public/libs",
     "test",
     "tests"
   ],
